@@ -10,7 +10,7 @@ Run the installation script to set up SoundSentry:
 ./install.sh
 ```
 
-The installation script installs blueutil, copies the necessary files, and sets up a launch daemon for automatic execution.
+The installation script installs blueutil, copies the necessary files, and sets up as a launch agent for running as launch daemon at startup.
 
 ## Usage ℹ️
 Once installed, the SoundSentry will check and display information about your paired JBL device every 10 minutes. If no paired JBL device is found, it exits.
