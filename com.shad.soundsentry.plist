@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.shad.soundsentry</string>
+    <key>Program</key>
+    <string>/bin/bash</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-c</string>
+        <string>exec "$HOME/scripts/soundsentry.sh"</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>600</integer> <!-- 10 minutes in seconds (10 minutes * 60 seconds) -->
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/soundsentry/myScript.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/soundsentry/myScript.err</string>
+</dict>
+</plist>
